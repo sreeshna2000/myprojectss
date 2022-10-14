@@ -82,12 +82,12 @@ class Myself implements Tenth,Plustwo,Degree,Mydetails {
 }
   void main(){
     Myself obj = Myself();
-    obj.mydeatails('sreeshna', 21, 09876543322, 'kottapadi');
+    obj.mydeatails('sreeshna', 21, 09876554654, 'Kottapadi');
     print('-----------------------------------------');
-    obj.tenthdetails('LFCGHSS', 85, 'mammiyoor', 2016);
+    obj.tenthdetails('LFCGHSS Mammiyoor', 85, 'mammiyoor', 2016);
     print('-----------------------------------------');
-    obj.plustwodetails('GHSS', 73, 'chavakkad', 2019);
+    obj.plustwodetails('GHSS Chavakkad', 73, 'chanakkad', 2017);
     print('-----------------------------------------');
-    obj.degreedetails('Ansar womens', 'pass', 'perumbillavu', 2022);
+    obj.degreedetails('ansar college', 'pass', 'perumbilavu', 2022);
     print('-----------------------------------------');
   }
